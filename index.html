@@ -315,6 +315,179 @@
   </section>
 
 
+  <!-- Tables -->
+  <section id="tables" class="bgrcolor2">
+    <h1>Tables</h1>
+
+    <!-- Basic table structure -->
+    <h2>Basic table structure</h2>
+    <table>
+      <tr>
+        <td>15</td>
+        <td>15</td>
+        <td>30</td>
+      </tr>
+      <tr>
+        <td>45</td>
+        <td>60</td>
+        <td>45</td>
+      </tr>
+      <tr>
+        <td>60</td>
+        <td>90</td>
+        <td>90</td>
+      </tr>
+    </table>
+
+    <!-- Table headings -->
+    <h2>Table headings</h2>
+    <table>
+      <tr>
+        <th></th>
+        <th scope="col">Saturday</th>
+        <th scope="col">Sunday</th>
+      </tr>
+      <tr>
+        <th scope="row">Tickets sold:</th>
+        <td>120</td>
+        <td>135</td>
+      </tr>
+      <tr>
+        <th scope="row">Total sales:</th>
+        <td>$600</td>
+        <td>$675</td>
+      </tr>
+    </table>
+
+    <!-- Spanning columns -->
+    <h2>Spanning columns</h3>
+      <table>
+        <tr>
+          <th></th>
+          <th>9am</th>
+          <th>10am</th>
+          <th>11am</th>
+          <th>12am</th>
+        </tr>
+        <tr>
+          <th>Monday</th>
+          <td colspan="2">Geography</td>
+          <td>Math</td>
+          <td>Art</td>
+        </tr>
+        <tr>
+          <th>Tuesday</th>
+          <td colspan="3">Gym</td>
+          <td>Home Ec</td>
+        </tr>
+      </table>
+
+      <!-- Spanning rows -->
+      <h2>Spanning rows</h2>
+      <table>
+        <tr>
+          <th></th>
+          <th>ABC</th>
+          <th>BBC</th>
+          <th>CNN</th>
+        </tr>
+        <tr>
+          <th>6pm - 7pm</th>
+          <td rowspan="2">Movie</td>
+          <td>Comedy</td>
+          <td>News</td>
+        </tr>
+        <tr>
+          <th>7pm - 8pm</th>
+          <td>Sport</td>
+          <td>Current Affairs</td>
+        </tr>
+      </table>
+
+      <!-- Long table -->
+      <h2>Long table</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Income</th>
+            <th>Expenditure</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>1st January</th>
+            <td>250</td>
+            <td>36</td>
+          </tr>
+          <tr>
+            <th>2nd January</th>
+            <td>285</td>
+            <td>48</td>
+          </tr>
+
+          <!-- additional rows as above -->
+          <tr>
+            <th>31st January</th>
+            <td>129</td>
+            <td>64</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td></td>
+            <td>7824</td>
+            <td>1241</td>
+          </tr>
+        </tfoot>
+      </table>
+
+      <!-- Width & spacing -->
+      <h2>Width & spacing</h2>
+      <table width="400" cellpadding="10" cellspacing="5">
+        <tr>
+          <th width="150"></th>
+          <th>Withdrawn</th>
+          <th>Credit</th>
+          <th width="150">Balance</th>
+        </tr>
+        <tr>
+          <th>January</th>
+          <td>250.00</td>
+          <td>660.50</td>
+          <td>410.50</td>
+        </tr>
+        <tr>
+          <th>February</th>
+          <td>135.55</td>
+          <td>895.20</td>
+          <td>1170.15</td>
+        </tr>
+      </table>
+
+      <!-- Border & background -->
+      <h2>Border & background</h2>
+      <table border="2" bgcolor="#efefef">
+        <tr>
+          <th width="150"></th>
+          <th>Withdrawn</th>
+          <th>Credit</th>
+          <th width="150" bgcolor="#cccccc">Balance</th>
+        </tr>
+        <tr>
+          <th>January</th>
+          <td>250.00</td>
+          <td>660.50</td>
+          <td bgcolor="#cccccc">410.50</td>
+        </tr>
+        <tr>
+          <th>February</th>
+          <td>135.55</td>
+          <td>895.20</td>
+          <td bgcolor="#cccccc">1170.15</td>
+        </tr>
+      </table>
+  </section>
 
   <footer>
     <h1>Here is a footer</h1>
