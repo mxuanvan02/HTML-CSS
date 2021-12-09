@@ -1,16 +1,19 @@
-header {
-  background-color: aquamarine;
-}
-
-#structural_markup {
-  background-color: papayawhip;
-}
-
-#semantic_markup {
-  background-color: palevioletred;
-}
-
-footer {
+body {
   background-color: pink;
 }
+
+header, footer {
+  background-color: pink;
+}
+
+.bgrcolor1 {
+  background-color: #000;
+  color: white;
+}
+
+.bgrcolor2 {
+  background-color: blanchedalmond;
+  color: #000;
+}
+
 

@@ -10,11 +10,22 @@
 </head>
 
 <body>
-  <header>
+  <header id="top">
     <h1>Here is a header</h1>
+
+    <!-- Heading -->
+    <h2>This is a Level 2 Heading</h2>
+    <h3>This is a Level 3 Heading</h3>
+    <h4>This is a Level 4 Heading</h4>
+    <h5>This is a Level 5 Heading</h5>
+    <h6>This is a Level 6 Heading</h6>
   </header>
-  <section id="structural_markup">
+
+  <!-- Text -->
+  <section id="structural_markup" class="bgrcolor1">
     <h1>Here is Structural markup</h1>
+
+    <!-- Paragraoh -->
     <p>A paragraph consists of one or more sentences
       that form a self-contained unit of discourse. The
       start of a paragraph is indicated by a new
@@ -24,23 +35,32 @@
       chapters. Chapters can have subheadings. Under
       each heading there will be one or more
       paragraphs.</p>
+
+    <!-- Bold & Italic -->
     <p>This is how we make a word appear <b>bold.</b>
     </p>
     <p>Inside a product description you might see some
       <b>key features</b> in bold.
     </p>
+
     <p>This is how we make a word appear <i>italic</i>.
     </p>
     <p>It's a potato <i>Solanum teberosum</i>.</p>
     <p>Captain Cook sailed to Australia on the
       <i>Endeavour</i>.
     </p>
+
+    <!-- Superscript & subscript -->
     <p>On the 4<sup>th</sup> of September you will learn
       about E=MC<sup>2</sup>.</p>
+
     <p>The amount of CO<sub>2</sub> in the atmosphere
       grew by 2ppm in 2009<sub>1</sub>.</p>
+
+    <!-- Line breaks & Horizontal rules -->
     <p>The Earth<br />gets one hundred tons heavier
       every day<br />due to falling space dust.</p>
+
     <p>Venus is the only planet that rotates
       clockwise.</p>
     <hr />
@@ -48,18 +68,22 @@
       combined.</p>
   </section>
 
-  <section id="semantic_markup">
+  <section id="semantic_markup" class="bgrcolor2">
     <h1>Here is Semantic markup</h1>
+
+    <!-- Strong & emphasis -->
     <p><strong>Beware:</strong> Pickpockets operate in
       this area.</p>
     <p>This toy has many small pieces and is <strong>not
         suitable for children under five years old.
       </strong></p>
+
     <p>I <em>think</em> Ivy was the first.</p>
     <p>I think <em>Ivy</em> was the first.</p>
     <p>I think Ivy was the <em>first</em>.</p>
-    <blockquote cite="http://en.wikipedia.org/wiki/
-Winnie-the-Pooh">
+
+    <!-- Quotations -->
+    <blockquote cite="http://en.wikipedia.org/wiki/Winnie-the-Pooh">
       <p>Did you ever stop to think, and forget to start
         again?</p>
     </blockquote>
@@ -67,10 +91,152 @@ Winnie-the-Pooh">
         animals. Not many listen though. That's the
         problem.</q></p>
 
+    <!-- Abbreviations & acronyms -->
+    <p><abbr title="Professor">Prof</abbr> Stephen
+      Hawking is a theoretical physicist and
+      cosmologist.</p>
+
+    <p><acronym title="National Aeronautics and SpaceAdministration">NASA</acronym> do some crazy
+      space stuff.</p>
+
+    <!-- Citations & definitions -->
+    <p><cite>A Brief History of Time</cite> by Stephen
+      Hawking has sold over ten million copies
+      worldwide.</p>
+
+    <p>A <dfn>black hole</dfn> is a region of space from
+      which nothing, not even light, can escape.</p>
+
+    <!-- Author details -->
+    <address>
+      <p><a href="mailto:homer@example.org">
+          homer@example.org</a></p>
+      <p>742 Evergreen Terrace, Springfield.</p>
+    </address>
+
+    <!-- Changes to content -->
+    <p>It was the <del>worst</del> <ins>best</ins> idea
+      she had ever had.</p>
+
+    <p>Laptop computer:</p>
+    <p><s>Was $995</s></p>
+    <p>Now only $375</p>
   </section>
+
+  <!-- Lists -->
+  <section id="lists" class="bgrcolor1">
+    <!-- Ordered lists -->
+    <h1>Ordered lists</h1>
+    <ol>
+      <li>Chop potatoes into quarters</li>
+      <li>Simmer in salted water for 15-20
+        minutes until tender</li>
+      <li>Heat milk, butter and nutmeg</li>
+      <li>Drain potatoes and mash</li>
+      <li>Mix in the milk mixture</li>
+    </ol>
+
+    <!-- Unordered lists -->
+    <h1>Unordered lists</h1>
+    <ul>
+      <li>1kg King Edward potatoes</li>
+      <li>100ml milk</li>
+      <li>50g salted butter</li>
+      <li>Freshly grated nutmeg</li>
+      <li>Salt and pepper to taste</li>
+    </ul>
+
+    <!-- Definition lists -->
+    <dl>
+      <dt>Sashimi</dt>
+      <dd>Sliced raw fish that is served with
+        condiments such as shredded daikon radish or
+        ginger root, wasabi and soy sauce</dd>
+      <dt>Scale</dt>
+      <dd>A device used to accurately measure the
+        weight of ingredients</dd>
+      <dd>A technique by which the scales are removed
+        from the skin of a fish</dd>
+      <dt>Scamorze</dt>
+      <dt>Scamorzo</dt>
+      <dd>An Italian cheese usually made from whole
+        cow's milk (although it was traditionally made
+        from buffalo milk)</dd>
+    </dl>
+
+    <!-- Nested lists -->
+    <ul>
+      <li>Mousses</li>
+      <li>Pastries
+        <ul>
+          <li>Croissant</li>
+          <li>Mille-feuille</li>
+          <li>Palmier</li>
+          <li>Profiterole</li>
+        </ul>
+      </li>
+      <li>Tarts</li>
+    </ul>
+  </section>
+
+  <!-- Links -->
+  <section id="links" class="bgrcolor2">
+    <h1>Links</h1>
+
+    <!-- Link to other sites -->
+    <p>Movie Reviews:
+    <ul>
+      <li><a href="http://www.empireonline.com">
+          Empire</a></li>
+      <li><a href="http://www.metacritic.com">
+          Metacritic</a></li>
+      <li><a href="http://www.rottentomatoes.com">
+          Rotten Tomatoes</a></li>
+      <li><a href="http://www.variety.com">
+          Variety</a></li>
+    </ul>
+    </p>
+
+    <!-- Linking to other pages on the same site -->
+    <p>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about-us.html">About</a></li>
+      <li><a href="movies.html">Movies</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    </p>
+
+    <!-- Email links -->
+    <a href="mailto:jon@example.org">Email Jon</a>
+
+    <!-- Opening links in a new window -->
+    <a href="http://www.imdb.com" target="_blank">
+      Internet Movie Database</a> (opens in new window)
+
+    <!-- Linking to a specific part of the same page -->
+    <h1 id="top">Film-Making Terms</h1>
+    <a href="#arc_shot">Arc Shot</a><br />
+    <a href="#interlude">Interlude</a><br />
+    <a href="#prologue">Prologue</a><br /><br />
+    <h2 id="arc_shot">Arc Shot</h2>
+    <p>A shot in which the subject is photographed by an
+      encircling or moving camera</p>
+    <h2 id="interlude">Interlude</h2>
+    <p>A brief, intervening film scene or sequence, not
+      specifically tied to the plot, that appears
+      within a film</p>
+    <h2 id="prologue">Prologue</h2>
+    <p>A speech, preface, introduction, or brief scene
+      preceding the the main action or plot of a film;
+      contrast to epilogue</p>
+    <p><a href="#top">Top</a></p>
+  </section>
+
   <footer>
     <h1>Here is a footer</h1>
   </footer>
 </body>
+
 
 </html>
